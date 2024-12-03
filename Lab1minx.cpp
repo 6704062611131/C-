@@ -12,7 +12,7 @@ int main(){
 	}else if(b>a){
 		printf("N2 %d ",(b-a));
 	}else{
-		printf("N1 ");
-		printf("N2");
+		printf("N1\n");
+		printf("N2\n");
 	}
 }
