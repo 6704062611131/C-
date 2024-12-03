@@ -8,13 +8,11 @@ int main(){
 	scanf("%d", &b);
 	
 	if(a>b){
-		printf("N1 %d \n",(a-b));
+		printf("N1 %d ",(a-b));
 	}else if(b>a){
-		printf("N2 %d \n",(b-a));
+		printf("N2 %d ",(b-a));
 	}else{
-		printf("N1=N2");
+		printf("N1 ");
+		printf("N2");
 	}
 }
-
-
-
